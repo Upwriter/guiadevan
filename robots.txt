@@ -1,0 +1,46 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.guiadevan.com.br/sitemap.xml
+
+# Páginas principais
+Allow: /inicio
+Allow: /servico
+Allow: /sobrenos
+Allow: /contato
+
+# Páginas de estados
+Allow: /sp
+Allow: /rj
+Allow: /mg
+Allow: /pr
+Allow: /rs
+Allow: /ba
+Allow: /sc
+Allow: /go
+Allow: /ma
+Allow: /pb
+Allow: /pe
+Allow: /ce
+Allow: /pi
+Allow: /al
+Allow: /rn
+Allow: /mt
+Allow: /ms
+Allow: /df
+Allow: /se
+Allow: /am
+Allow: /ro
+Allow: /ac
+Allow: /pa
+Allow: /ap
+Allow: /rr
+Allow: /to
+Allow: /es
+
+# Páginas de serviços
+Allow: /servicos/
+
+# Crawl-delay para não sobrecarregar o servidor
+Crawl-delay: 1

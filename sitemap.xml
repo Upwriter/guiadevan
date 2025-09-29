@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Páginas principais -->
+  <url>
+    <loc>https://www.guiadevan.com.br/</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/inicio</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/servico</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/sobrenos</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/contato</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Páginas de estados (exemplos principais) -->
+  <url>
+    <loc>https://www.guiadevan.com.br/sp</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/rj</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/mg</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- Páginas de serviços por estado (exemplos) -->
+  <url>
+    <loc>https://www.guiadevan.com.br/servicos/sp</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.guiadevan.com.br/servicos/rj</loc>
+    <lastmod>2024-09-29</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Nota: Para um sitemap completo com todos os 5.569 municípios, 
+       seria necessário gerar dinamicamente ou usar múltiplos sitemaps -->
+</urlset>
