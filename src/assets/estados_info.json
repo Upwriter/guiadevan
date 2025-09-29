@@ -1,0 +1,14 @@
+{
+  "SP": {
+    "nome": "São Paulo",
+    "url": "sao-paulo"
+  },
+  "RJ": {
+    "nome": "Rio de Janeiro", 
+    "url": "rio-de-janeiro"
+  },
+  "MG": {
+    "nome": "Minas Gerais",
+    "url": "minas-gerais"
+  }
+}

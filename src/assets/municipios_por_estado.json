@@ -1,0 +1,17 @@
+{
+  "SP": [
+    "São Paulo",
+    "Campinas",
+    "Santos"
+  ],
+  "RJ": [
+    "Rio de Janeiro",
+    "Niterói",
+    "Campos dos Goytacazes"
+  ],
+  "MG": [
+    "Belo Horizonte",
+    "Uberlândia",
+    "Contagem"
+  ]
+}

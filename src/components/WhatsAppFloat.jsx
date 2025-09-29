@@ -1,4 +1,4 @@
-import whatsappIcon from '../assets/whatsapp-icon.png'
+import { MessageCircle } from 'lucide-react'
 
 const WhatsAppFloat = () => {
   const whatsappLink = "https://wa.link/8sjwum"
@@ -12,10 +12,8 @@ const WhatsAppFloat = () => {
         className="flex items-center justify-center w-14 h-14 bg-green-500 rounded-full shadow-lg hover:bg-green-600 hover:scale-110 transition-all duration-300 animate-pulse"
         aria-label="Falar no WhatsApp"
       >
-        <img 
-          src={whatsappIcon} 
-          alt="WhatsApp" 
-          className="w-8 h-8"
+        <MessageCircle 
+          className="w-8 h-8 text-white"
         />
       </a>
     </div>
