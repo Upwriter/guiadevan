@@ -1,15 +1,15 @@
 import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import WhatsAppFloat from './components/WhatsAppFloat';
-import Inicio from './pages/Inicio';
-import Servicos from './pages/Servicos';
-import SobreNos from './pages/SobreNos';
-import Contato from './pages/Contato';
-import EstadoPage from './pages/EstadoPage';
-import ServicosEstadoPage from './pages/ServicosEstadoPage';
-import MunicipioPage from './pages/MunicipioPage';
-import ServicosMunicipioPage from './pages/ServicosMunicipioPage';
+import Header from './Header';
+import Footer from './Footer';
+import WhatsAppFloat from './WhatsAppFloat';
+import Inicio from './Inicio';
+import Servicos from './Servicos';
+import SobreNos from './SobreNos';
+import Contato from './Contato';
+import EstadoPage from './EstadoPage';
+import ServicosEstadoPage from './ServicosEstadoPage';
+import MunicipioPage from './MunicipioPage';
+import ServicosMunicipioPage from './ServicosMunicipioPage';
 import './App.css';
 
 function App() {
