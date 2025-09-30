@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import { Calendar, User, Clock, ArrowLeft, Share2, Facebook, Twitter, Linkedin } from 'lucide-react'
+import { Calendar, User, Clock, ArrowLeft, Facebook, Twitter, Linkedin } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -121,8 +121,7 @@ const BlogPost = () => {
                   </div>
 
                   {/* Article Content */}
-                  <div className="prose prose-lg max-w-none">
-                    {post.content}
+                  <div className="prose prose-lg max-w-none" dangerouslySetInnerHTML={{ __html: post.content }}>
                   </div>
                 </div>
               </article>
