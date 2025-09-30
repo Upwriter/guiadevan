@@ -1,14 +1,114 @@
 {
-  "SP": {
-    "nome": "São Paulo",
-    "url": "sao-paulo"
+  "AC": {
+    "nome": "Acre",
+    "url": "acre"
   },
-  "RJ": {
-    "nome": "Rio de Janeiro", 
-    "url": "rio-de-janeiro"
+  "AL": {
+    "nome": "Alagoas",
+    "url": "alagoas"
+  },
+  "AP": {
+    "nome": "Amapá",
+    "url": "amapa"
+  },
+  "AM": {
+    "nome": "Amazonas",
+    "url": "amazonas"
+  },
+  "BA": {
+    "nome": "Bahia",
+    "url": "bahia"
+  },
+  "CE": {
+    "nome": "Ceará",
+    "url": "ceara"
+  },
+  "DF": {
+    "nome": "Distrito Federal",
+    "url": "distrito-federal"
+  },
+  "ES": {
+    "nome": "Espírito Santo",
+    "url": "espirito-santo"
+  },
+  "GO": {
+    "nome": "Goiás",
+    "url": "goias"
+  },
+  "MA": {
+    "nome": "Maranhão",
+    "url": "maranhao"
+  },
+  "MT": {
+    "nome": "Mato Grosso",
+    "url": "mato-grosso"
+  },
+  "MS": {
+    "nome": "Mato Grosso do Sul",
+    "url": "mato-grosso-do-sul"
   },
   "MG": {
     "nome": "Minas Gerais",
     "url": "minas-gerais"
+  },
+  "PA": {
+    "nome": "Pará",
+    "url": "para"
+  },
+  "PB": {
+    "nome": "Paraíba",
+    "url": "paraiba"
+  },
+  "PR": {
+    "nome": "Paraná",
+    "url": "parana"
+  },
+  "PE": {
+    "nome": "Pernambuco",
+    "url": "pernambuco"
+  },
+  "PI": {
+    "nome": "Piauí",
+    "url": "piaui"
+  },
+  "RJ": {
+    "nome": "Rio de Janeiro",
+    "url": "rio-de-janeiro"
+  },
+  "RN": {
+    "nome": "Rio Grande do Norte",
+    "url": "rio-grande-do-norte"
+  },
+  "RS": {
+    "nome": "Rio Grande do Sul",
+    "url": "rio-grande-do-sul"
+  },
+  "RO": {
+    "nome": "Rondônia",
+    "url": "rondonia"
+  },
+  "RR": {
+    "nome": "Roraima",
+    "url": "roraima"
+  },
+  "SC": {
+    "nome": "Santa Catarina",
+    "url": "santa-catarina"
+  },
+  "SP": {
+    "nome": "São Paulo",
+    "url": "sao-paulo"
+  },
+  "SE": {
+    "nome": "Sergipe",
+    "url": "sergipe"
+  },
+  "TO": {
+    "nome": "Tocantins",
+    "url": "tocantins"
+  },
+  "EX": {
+    "nome": "Exterior",
+    "url": "exterior"
   }
 }
