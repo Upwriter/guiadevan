@@ -1,0 +1,65 @@
+/* App.css - Estilos principais da aplicação */
+
+.App {
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+/* Reset básico */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para o container principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Estilos responsivos */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+/* Estilos para texto */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  line-height: 1.2;
+  color: #1f2937;
+}
+
+p {
+  line-height: 1.6;
+  color: #4b5563;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Botões */
+button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  font-family: inherit;
+}
+
+/* Inputs */
+input, textarea {
+  font-family: inherit;
+  outline: none;
+}
+
+/* Imagens */
+img {
+  max-width: 100%;
+  height: auto;
+}

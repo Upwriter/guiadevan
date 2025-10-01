@@ -1,0 +1,68 @@
+- [ ] ✅ Estrutura de pastas correta (`src/`, `src/components/`, `src/pages/`)
+- [ ] ✅ `package.json` com todas as dependências
+- [ ] ✅ `vite.config.js` com alias `@` configurado
+- [ ] ✅ `tailwind.config.js` configurado
+- [ ] ✅ `postcss.config.js` configurado
+- [ ] ✅ `netlify.toml` configurado
+- [ ] ✅ Todos os componentes UI criados
+- [ ] ✅ Assets (imagens, JSONs) na pasta correta
+- [ ] ✅ Build local funcionando (`npm run build`)
+- [ ] ✅ Repositório no GitHub
+- [ ] ✅ Netlify conectado ao repositório
+
+### Após o Deploy:
+- [ ] ✅ Site carregando corretamente
+- [ ] ✅ Navegação funcionando
+- [ ] ✅ Estilos aplicados
+- [ ] ✅ Imagens carregando
+- [ ] ✅ Responsividade funcionando
+
+---
+
+## 📚 Recursos Adicionais
+
+### Documentação Oficial:
+- [Vite](https://vitejs.dev/)
+- [React](https://react.dev/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Netlify](https://docs.netlify.com/)
+
+### Comandos Úteis:
+```bash
+# Desenvolvimento
+npm run dev
+
+# Build
+npm run build
+
+# Preview do build
+npm run preview
+
+# Lint
+npm run lint
+```
+
+---
+
+## 🎯 Dicas Importantes
+
+1. **Sempre teste localmente** antes do deploy
+2. **Mantenha as dependências atualizadas**
+3. **Use componentes reutilizáveis**
+4. **Organize bem a estrutura de pastas**
+5. **Configure corretamente o Tailwind CSS**
+6. **Verifique todos os imports**
+7. **Teste em diferentes dispositivos**
+
+---
+
+## 📞 Suporte
+
+Se encontrar problemas:
+1. Verifique o console do navegador
+2. Consulte os logs do Netlify
+3. Teste o build localmente
+4. Verifique todas as dependências
+5. Confirme a estrutura de arquivos
+
+**Este guia deve cobrir 99% dos casos de uso para criar e fazer deploy de um site React/Vite no Netlify!** 🚀

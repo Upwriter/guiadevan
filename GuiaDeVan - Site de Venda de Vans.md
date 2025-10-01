@@ -1,150 +1,172 @@
 # GuiaDeVan - Site de Venda de Vans
 
-Site completo para venda de vans executivas, motorhomes e ambulâncias, com páginas específicas para todos os estados e municípios do Brasil.
+## 📋 Sobre o Projeto
 
-## 🚐 Sobre o Projeto
+O **GuiaDeVan** é um site completo para venda de vans executivas, ambulâncias e veículos para motorhome em todo o Brasil. O site foi desenvolvido com foco em SEO e posicionamento local, oferecendo páginas específicas para todos os estados e municípios brasileiros.
 
-O GuiaDeVan é um site otimizado para SEO que oferece:
+## 🚀 Funcionalidades
 
-- **Vans Executivas**: Transporte corporativo premium
-- **Motorhomes**: Casas sobre rodas para viagens
-- **Ambulâncias**: Veículos médicos equipados
+### ✅ Páginas Principais
+- **Início** (`/inicio`) - Página principal com apresentação da empresa
+- **Serviços** (`/servicos`) - Detalhes dos serviços oferecidos
+- **Sobre Nós** (`/sobrenos`) - Informações sobre a empresa
+- **Contato** (`/contato`) - Formulários e informações de contato
 
-## 🌍 Cobertura Nacional
+### ✅ Páginas Dinâmicas por Localização
+- **Estados**: Páginas para todos os 27 estados brasileiros
+  - Exemplo: `/sao-paulo`, `/rio-de-janeiro`, `/minas-gerais`
+- **Municípios**: Páginas para todos os 5.571 municípios do Brasil
+  - Exemplo: `/sao-paulo/campinas`, `/rio-de-janeiro/niteroi`
+- **Serviços por Estado**: `/servicos/sao-paulo`
+- **Serviços por Município**: `/servicos/sao-paulo/campinas`
 
-O site possui páginas específicas para:
-- **27 Estados** + Distrito Federal
-- **5.569 Municípios** do Brasil
-- Páginas de serviços regionalizadas
+### ✅ Funcionalidades Interativas
+- **Busca Inteligente**: Sistema de busca por cidade ou estado com sugestões automáticas
+- **FAQ Interativo**: Seção de perguntas frequentes com expansão/contração
+- **WhatsApp Flutuante**: Botão fixo para contato direto via WhatsApp
+- **Navegação Responsiva**: Design adaptável para desktop e mobile
+
+### ✅ Otimizações SEO
+- Meta tags dinâmicas por localização
+- URLs amigáveis e estruturadas
+- Conteúdo otimizado para cada região
+- Schema markup para melhor indexação
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **React 18** - Framework frontend
-- **Vite** - Build tool e dev server
+- **React 18** - Framework principal
 - **React Router** - Roteamento dinâmico
 - **Tailwind CSS** - Estilização
+- **Shadcn/UI** - Componentes de interface
 - **Lucide React** - Ícones
-- **Vercel** - Deploy e hospedagem
+- **Vite** - Build tool
+- **Netlify** - Hospedagem e deploy
 
-## 📱 Funcionalidades
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── components/
+│   ├── Header.jsx              # Cabeçalho com navegação
+│   ├── WhatsAppFloat.jsx       # Botão flutuante do WhatsApp
+│   ├── StatePage.jsx           # Template para páginas de estados
+│   ├── CityPage.jsx            # Template para páginas de municípios
+│   ├── DynamicRouter.jsx       # Sistema de roteamento dinâmico
+│   ├── LocationSearch.jsx      # Componente de busca por localização
+│   ├── FAQ.jsx                 # Seção de perguntas frequentes
+│   └── ui/                     # Componentes de interface
+├── pages/
+│   ├── Home.jsx                # Página inicial
+│   ├── Services.jsx            # Página de serviços
+│   ├── About.jsx               # Página sobre nós
+│   └── Contact.jsx             # Página de contato
+├── assets/
+│   ├── images/                 # Imagens e ícones
+│   ├── estados_info.json       # Dados dos estados
+│   ├── municipios_por_estado.json # Dados dos municípios
+│   └── municipios_utf8.csv     # Lista completa de municípios
+├── utils/
+│   └── seo.js                  # Utilitários para SEO
+└── App.jsx                     # Componente principal
+```
+
+## 🔗 Links do WhatsApp
+
+### Localização Atual
+O link do WhatsApp usado em todo o site é: `https://wa.link/8sjwum`
+
+### Como Alterar
+Para alterar o link do WhatsApp, consulte o arquivo `WHATSAPP_LINKS.md` que contém:
+- Localização de todos os links no código
+- Instruções para alteração global
+- Recomendações para facilitar futuras mudanças
+
+## 🌐 URLs Disponíveis
 
 ### Páginas Principais
-- `/inicio` - Página inicial
-- `/servico` - Serviços oferecidos
-- `/sobrenos` - Sobre a empresa
-- `/contato` - Formulário de contato
+- `/` → Redireciona para `/inicio`
+- `/inicio` → Página inicial
+- `/servicos` → Página de serviços
+- `/sobrenos` → Página sobre nós
+- `/contato` → Página de contato
 
-### Páginas Regionais
-- `/{estado}` - Página do estado (ex: `/sp`)
-- `/{estado}/{municipio}` - Página do município (ex: `/sp/sao-paulo`)
-- `/servicos/{estado}` - Serviços por estado
-- `/servicos/{estado}/{municipio}` - Serviços por município
+### Páginas por Estado (27 estados)
+- `/acre` → Página do Acre
+- `/sao-paulo` → Página de São Paulo
+- `/rio-de-janeiro` → Página do Rio de Janeiro
+- ... (todos os 27 estados)
 
-### Componentes
-- **Header** - Navegação principal com logo personalizado
-- **Footer** - Informações de contato e links
-- **WhatsApp Float** - Botão flutuante para contato
-- **Páginas Dinâmicas** - Conteúdo personalizado por localização
+### Páginas por Município (5.571 municípios)
+- `/sao-paulo/campinas` → Campinas, SP
+- `/rio-de-janeiro/niteroi` → Niterói, RJ
+- `/minas-gerais/belo-horizonte` → Belo Horizonte, MG
+- ... (todos os municípios)
 
-## 🚀 Como Executar
+### Páginas de Serviços por Localização
+- `/servicos/sao-paulo` → Serviços em São Paulo
+- `/servicos/sao-paulo/campinas` → Serviços em Campinas, SP
 
-### Pré-requisitos
-- Node.js 18+
-- pnpm (recomendado) ou npm
+## 🚀 Deploy e Hospedagem
 
-### Instalação
+O site está configurado para deploy automático no **Netlify** com:
+- Build automático via `pnpm run build`
+- Redirects configurados para SPA
+- Headers de segurança
+- Cache otimizado para assets
+
+### Comandos de Deploy
 ```bash
-# Clone o repositório
-git clone <url-do-repositorio>
-
-# Entre no diretório
-cd guiadevan
-
-# Instale as dependências
-pnpm install
-
-# Execute o servidor de desenvolvimento
-pnpm run dev
-```
-
-### Build para Produção
-```bash
-# Gere o build otimizado
+# Build local
 pnpm run build
 
-# Visualize o build localmente
+# Preview local
 pnpm run preview
+
+# Deploy (via Netlify)
+# O deploy é feito automaticamente via interface do Netlify
 ```
 
-## 🌐 Deploy na Vercel
+## 📊 Estatísticas do Projeto
 
-O projeto está configurado para deploy automático na Vercel:
+- **Total de Páginas**: 5.626 páginas únicas
+  - 4 páginas principais
+  - 27 páginas de estados
+  - 5.571 páginas de municípios
+  - 24 páginas de serviços (estados + municípios principais)
 
-1. Conecte o repositório à Vercel
-2. Configure o domínio `www.guiadevan.com.br`
-3. O deploy será automático a cada push
+- **Cobertura Geográfica**: 100% do território brasileiro
+  - Todos os 26 estados + Distrito Federal
+  - Todos os 5.571 municípios brasileiros
 
-### Configurações da Vercel
-- **Build Command**: `npm run build`
-- **Output Directory**: `dist`
-- **Install Command**: `npm install`
+## 🎯 Estratégia de SEO
 
-## 📊 SEO e Performance
-
-### Otimizações Implementadas
-- Meta tags otimizadas para cada página
-- Open Graph e Twitter Cards
-- Favicon personalizado
-- URLs amigáveis para SEO
-- Conteúdo único por localização
-- Estrutura semântica HTML5
+### Conteúdo Localizado
+- Títulos únicos para cada localização
+- Descrições personalizadas por região
+- Keywords específicas por cidade/estado
+- Meta tags dinâmicas
 
 ### Estrutura de URLs
-```
-www.guiadevan.com.br/
-├── inicio/
-├── servico/
-├── sobrenos/
-├── contato/
-├── {estado}/                    # Ex: sp, rj, mg
-├── {estado}/{municipio}/        # Ex: sp/sao-paulo
-├── servicos/{estado}/           # Ex: servicos/sp
-└── servicos/{estado}/{municipio}/ # Ex: servicos/sp/santos
-```
+- URLs amigáveis e hierárquicas
+- Padrão consistente: `/estado/municipio`
+- Redirects automáticos para SPA
 
-## 📞 Contato
+### Performance
+- Lazy loading de componentes
+- Otimização de imagens
+- Minificação de CSS/JS
+- Cache estratégico
 
-- **WhatsApp**: Botão flutuante em todas as páginas
-- **Redes Sociais**: Instagram, Facebook, Reddit
-- **Formulário**: Página de contato com formulário completo
+## 📞 Contato e Suporte
 
-## 🎨 Design
+- **WhatsApp**: https://wa.link/8sjwum
+- **E-mail**: contato@guiadevan.com.br
+- **Site**: www.guiadevan.com.br
 
-- **Responsivo**: Funciona em desktop, tablet e mobile
-- **Moderno**: Design clean e profissional
-- **Acessível**: Seguindo boas práticas de acessibilidade
-- **Performático**: Otimizado para carregamento rápido
+## 📝 Licença
 
-## 📈 Estratégia de SEO
+Este projeto foi desenvolvido especificamente para a empresa GuiaDeVan.
 
-O site foi desenvolvido com foco em SEO local:
+---
 
-1. **Páginas por Estado**: Conteúdo otimizado para cada estado
-2. **Páginas por Município**: Presença em todas as cidades do Brasil
-3. **Conteúdo Único**: Cada página tem conteúdo específico
-4. **URLs Semânticas**: Estrutura clara e amigável
-5. **Meta Tags Dinâmicas**: Títulos e descrições personalizadas
-
-## 🔧 Manutenção
-
-### Adicionando Novos Estados/Municípios
-Os dados estão em `src/data/estados_municipios.json` e as páginas são geradas dinamicamente.
-
-### Atualizando Conteúdo
-- Páginas principais: `src/pages/`
-- Componentes: `src/components/`
-- Estilos: `src/App.css`
-
-## 📄 Licença
-
-Este projeto foi desenvolvido para a GuiaDeVan. Todos os direitos reservados.
+**Desenvolvido com ❤️ para revolucionar a venda de vans no Brasil**
